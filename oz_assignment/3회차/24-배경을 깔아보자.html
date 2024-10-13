@@ -10,6 +10,32 @@
             height: 200px;
             padding: 20px;
             border: 20px double yellowgreen;
+
+            /* background-color: bisque;*/
+            background-clip: border-box;
+            /* cloor를 사용할때는 clip을 사용해서 그 범위를 정해준다.*/
+
+            background-image: url(Wkdrn.jpeg);
+            background-size: 380px 380px;
+            background-repeat: no-repeat; /*사진의 사이즈가 작을 경우 
+            바둑판 효과가 적용되어 그래픽이 반복되는데, 그 반복이 싫은 경우 no-repeat을
+            사용하여 반복을 허용하지 않을 수 있다.*/
+
+            background-origin: border-box;
+            /*이미지의 시작 위치를 정해줄 수 있다 
+            1. padding-box
+            2. border-box
+            3. content-box */
+
+            background-position: 100px 50px;
+            /*어디에 위치해라! 라고 정해줄 수 있다 
+            1. center
+            2. bottom
+            3. left 
+            4. left bottom(이렇게도 조합 가능)등등...
+            자세한 위치를 정하고 싶으면 x축, y축 px값 설정해서 적기*/
+
+
         }
     </style>
 </head>
